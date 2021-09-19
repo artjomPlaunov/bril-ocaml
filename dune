@@ -1,0 +1,4 @@
+(executables 
+  (names cfg_driver hello)
+  (libraries cfg core))
+

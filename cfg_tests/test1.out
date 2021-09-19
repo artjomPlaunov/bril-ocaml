@@ -1,0 +1,10 @@
+digraph main {
+  b0
+  b1
+  somewhere
+  anotherLabel
+  label
+  b0 -> somewhere;
+  b1 -> label;
+  somewhere -> anotherLabel;
+  }

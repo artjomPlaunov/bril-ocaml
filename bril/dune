@@ -1,0 +1,3 @@
+(library
+  (name bril)
+  (libraries core yojson))

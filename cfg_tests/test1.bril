@@ -1,0 +1,12 @@
+@main {
+  v: int = const 4;
+  jmp .somewhere;
+  v: int = const 2;
+  jmp .label;
+.somewhere:
+  print v;
+.anotherLabel:
+  ret;
+.label:
+  print v;
+}
