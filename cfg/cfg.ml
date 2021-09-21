@@ -101,12 +101,6 @@ let rec printBlockMap = function
               printBlockMap t;
   | []    ->  ()
 
-(* Just doing one function for now. *)
-let prog  = Bril.getProg In_channel.stdin 
-let instrs =  match prog.funcs with
-              | []    ->  []
-              | h::_  ->  h.instrs
-
 let rec printStringList = function
   | []    ->  ()
   | h::t  ->  print_string ("  " ^ h ^ "\n");

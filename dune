@@ -1,4 +1,4 @@
 (executables 
-  (names cfg_driver hello)
-  (libraries cfg core))
+  (names cfg_driver hello dce)
+  (libraries cfg core bril))
 
